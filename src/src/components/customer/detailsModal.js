@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Circle from 'react-circular-progressbar';
+import Circle from 'react-circle';
 import { Modal, Box, Typography, Button, Card, CardMedia, CardContent, useMediaQuery, useTheme } from '@mui/material';
 
 const DetailsModal = ({ open, handleClose, selectedRow }) => {
